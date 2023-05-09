@@ -10,3 +10,7 @@ Vantagens: com a classe Runnable podemos estender qualquer outra classe, já na 
 
 ## Método join() 4:
 O método join() espera a execução da Thread para só depois continuar o resto do código. Nesse caso o join está segurando o término da execução das três Threads, pra poder escrever "Programa finalizado".
+
+
+## Métodos das threads sincronizados 5:
+Sem a sincronização, as threads iriam compartilhar o método somaArray e variável soma não estaria sendo única de cada tarefa. Adicionando a palavra synchronized no método exige que apenas uma Thread acesse-o por vez.
