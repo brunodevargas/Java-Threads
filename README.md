@@ -8,5 +8,5 @@ Aqui criei 3 tarefas dentro de um programa Java com uma abordagem diferente: ao 
 Vantagens: com a classe Runnable podemos estender qualquer outra classe, já na classe Thread não. Se não formos sobrepor os métodos que a Thread nos possibilita, seria mais vantajoso usar o Runnable.
 
 
-## join() 4:
+## Método join() 4:
 O método join() espera a execução da Thread para só depois continuar o resto do código. Nesse caso o join está segurando o término da execução das três Threads, pra poder escrever "Programa finalizado".
