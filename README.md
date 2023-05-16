@@ -14,3 +14,9 @@ O método join() espera a execução da Thread para só depois continuar o resto
 
 ## Métodos das threads sincronizados 5:
 Sem a sincronização, as threads iriam compartilhar o método somaArray e variável soma não estaria sendo única de cada tarefa. Adicionando a palavra synchronized no método exige que apenas uma Thread acesse-o por vez.
+
+
+## Métodos wait(), notify() e notifyAll():
+wait: bloqueia a execução da thread temporariamente, ou seja, coloca a thread em modo de espera até que seja notificada.
+notify: notifica a thread que estava esperando.
+notifyAll: notifica todas as threads, a que tem prioridade mais alta ganha acesso ao objeto.
